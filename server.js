@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', function(req,res,next){
+    res.send("Hello The Platform is operational! ")
     res.next();
 })
 
