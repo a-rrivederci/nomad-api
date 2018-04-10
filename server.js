@@ -20,15 +20,15 @@ app.use(express.urlencoded({extended: true}))
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/', function(req,res,next){
-    res.send("Hello The Platform is operational! ")
-    res.next();
+app.get('/', function(req, res, next){
+    res.send("Hello The Platform is operational! ");
+    next();
 })
 
 
 app.get('/api/video', function(req,res,next){
     res.send(urlStream);
-    res.next();
+    next();
 })
 
 app.post('/api/tf', function(req,res){
