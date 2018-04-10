@@ -26,7 +26,12 @@ app.get('/', function(req, res, next){
 })
 
 
-app.get('/api/video', function(req,res,next){
+app.post('/api/video', function(req,res,next){
+    urlStream = req.body;
+    next();
+})
+
+app.post('/api/getvideo', function(req, res, next){
     res.send(urlStream);
     next();
 })
