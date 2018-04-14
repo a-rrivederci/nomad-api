@@ -1,5 +1,7 @@
 # Nomad Platform
 
+[![Build Status](https://travis-ci.org/attackle/nomad-api.svg?branch=master)](https://travis-ci.org/attackle/nomad-api)
+
 This will handle the functions that connect the Nomad Project togethere.
 
 ## Usage
