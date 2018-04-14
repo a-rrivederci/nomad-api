@@ -1,13 +1,13 @@
 {
-  "name": "nomad",
+  "name": "nomad-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "the backend for nomad platform",
   "main": "server.js",
   "scripts": {
-    "test": "mocha test/test-pi.js"
+    "test": "mocha test/test-pi.js --exit"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@yasster ",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
