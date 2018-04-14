@@ -1,5 +1,5 @@
 var assert = require('assert');
-var pi = require('./../library/pi');
+var pi = require('./../src/pi');
 var ref = pi.piMove;
 
 describe('testing the nomad movements', function () {
